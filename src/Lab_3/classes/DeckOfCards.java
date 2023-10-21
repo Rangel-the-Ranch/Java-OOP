@@ -56,7 +56,7 @@ public class DeckOfCards {
    }
    public void twoPairs(Card[] hand){
       numbers = totalHand(hand);
-      int couples = couples(hand);
+      int couples = couples(numbers);
       if(couples == 2){
          System.out.println("Three of a kind\n");
       }
