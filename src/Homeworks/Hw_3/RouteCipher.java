@@ -51,9 +51,6 @@ public class RouteCipher {
 
     private static char[] spiralCounterclockwiseTL(char[][] grid) {
 
-        if (grid.length == 0 || grid[0].length == 0) {
-            return new char[0];
-        }
         int numRows = grid.length;
         int numCols = grid[0].length;
         char[] result = new char[numRows * numCols];
